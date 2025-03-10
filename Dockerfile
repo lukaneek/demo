@@ -11,7 +11,6 @@ EXPOSE 8080
 CMD ["catalina.sh", "run"]
 
 
-
 #FROM openjdk:17
 #COPY target/*.war app.war
 #CMD ["java", "-jar", "/app.war"]
